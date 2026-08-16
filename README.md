@@ -4,7 +4,7 @@
 
 ## 导入地址
 
-复制下面链接添加到 Shadowrocket：https://raw.githubusercontent.com/lazh8/Apple-Intelligence-Shadowrocket/refs/heads/main/Apple-Intelligence.conf
+复制下面链接添加到 Shadowrocket：
 ## 使用方法
 
 Shadowrocket:
