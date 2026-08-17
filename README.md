@@ -16,8 +16,7 @@ Shadowrocket:
 → 编辑配置文件
 → [Rule] 添加：
 
-RULE-SET,https://raw.githubusercontent.com/lazh8/Apple-Intelligence-Shadowrocket/main/Apple-Intelligence.list,PROXY
-
+[RULE-SET,https://raw.githubusercontent.com/lazh8/Apple-Intelligence-Shadowrocket/refs/heads/main/Apple-Intelligence.list
 
 ## 更新
 
