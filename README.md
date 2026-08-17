@@ -1,24 +1,29 @@
 # Apple Intelligence Shadowrocket Rules
 
-适用于 Shadowrocket 的 Apple Intelligence / Siri / iCloud Private Relay 分流规则。
+Apple Intelligence / Siri / iCloud Private Relay 分流规则。
 
-## 导入地址
+## Remote Rule URL
 
 复制下面链接添加到 Shadowrocket：https://raw.githubusercontent.com/lazh8/Apple-Intelligence-Shadowrocket/refs/heads/main/Apple-Intelligence.conf
 ## 使用方法
 
+## 添加方法
+
 Shadowrocket:
 
-配置 → 规则集 → 添加远程规则
+设置
+→ 配置
+→ 编辑配置文件
+→ [Rule] 添加：
 
-类型：Remote Rule
-策略：PROXY
-## 自动更新
+RULE-SET,https://raw.githubusercontent.com/lazh8/Apple-Intelligence-Shadowrocket/main/Apple-Intelligence.list,PROXY
 
-规则文件托管于 GitHub。
 
-后续更新规则后，只需要在 Shadowrocket 中更新规则集，无需重新下载。
+## 更新
 
-## 更新日志
+以后更新 GitHub 文件：
 
-- 2026-08-16 初版发布
+Shadowrocket
+→ 更新配置
+
+即可同步。
