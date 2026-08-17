@@ -1,31 +1,42 @@
 # Apple Intelligence / Siri / iCloud Private Relay
 # Shadowrocket Rule Set
 
-# Apple Intelligence
+# Apple Intelligence / Siri
+
 DOMAIN-SUFFIX,smoot.apple.com,PROXY
 DOMAIN-SUFFIX,guzzoni.apple.com,PROXY
 DOMAIN,gspe1-ssl.ls.apple.com,PROXY
 
+
 # iCloud Private Relay
+
 DOMAIN,mask.icloud.com,PROXY
 DOMAIN-SUFFIX,mask-h2.icloud.com,PROXY
 DOMAIN,mask-api.icloud.com,PROXY
 DOMAIN-SUFFIX,mask-api.fe.apple-dns.net,PROXY
+
 DOMAIN,mask.apple-dns.net,PROXY
 DOMAIN-SUFFIX,mask-t.apple-dns.net,PROXY
+
 DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net,PROXY
 DOMAIN-SUFFIX,gateway.icloud.com,PROXY
 
+
 # Apple Relay
+
 DOMAIN-SUFFIX,apple-relay.apple.com,PROXY
 DOMAIN-SUFFIX,apple-relay.akamaized.net,PROXY
 DOMAIN-SUFFIX,apple-relay.cloudflare.com,PROXY
 DOMAIN-SUFFIX,apple-relay.fastly-edge.com,PROXY
 
+
 # Apple CDN
+
 DOMAIN-SUFFIX,apps.mzstatic.com,PROXY
 DOMAIN-SUFFIX,1s.apple.com,PROXY
 
+
 # Dependency
+
 DOMAIN-SUFFIX,polyfill-fastly.io,PROXY
 DOMAIN-SUFFIX,cp4.cloudflare.com,PROXY
