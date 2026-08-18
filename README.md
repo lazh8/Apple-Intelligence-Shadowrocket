@@ -6,7 +6,7 @@ Apple Intelligence / Siri / iCloud Private Relay 分流规则。
 
 复制下面链接添加到 Shadowrocket：https://raw.githubusercontent.com/lazh8/Apple-Intelligence-Shadowrocket/refs/heads/main/Apple-Intelligence.conf
 
-#二维码
+## 二维码
 
 <img width="150" height="150" alt="image" src="https://github.com/user-attachments/assets/ddb899a0-f772-47eb-9d82-be5a98b3f04c" />
 
